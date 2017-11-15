@@ -65,7 +65,6 @@ public class LoginActivity extends AppCompatActivity {
     private String urlUser;
     private String urlApplications;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
