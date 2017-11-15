@@ -64,10 +64,9 @@ public class LoginActivity extends AppCompatActivity {
 
     private String urlUser;
     private String urlApplications;
-    private String urlTemp;
 
 
-    @Override
+    @Overrides
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activity);
