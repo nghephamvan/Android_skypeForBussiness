@@ -45,23 +45,18 @@ public class LoginActivity extends AppCompatActivity {
     private String TAG = LoginActivity.class.getName();
 
     private String SCHEME = "https";
-
     private WebView mWebView;
-
     private String request;
     private String clientId;
     private String redirectURI;
     private String authenticationURLString;
     private String resource;
     private String autoDiscoverService;
-
     private AccessToken token;
     private boolean isAuthorization = false;
     private boolean isLogin = false;
-
     private ProgressDialog progressDialog;
     private boolean isShouldLoading = false;
-
     private String urlUser;
     private String urlApplications;
 
